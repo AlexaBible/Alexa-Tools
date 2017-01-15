@@ -20,7 +20,6 @@ $intents->categories[0]->entities[0]->signatures[] = array('name'=>'AMAZON.Searc
 $intents->categories[0]->entities[0]->signatures[] = array('name'=>'AMAZON.SearchAction<object@Book[position]>');
 $intents->categories[0]->entities[0]->signatures[] = array('name'=>'AMAZON.StopAction<object@Book>');
 $intents->categories[0]->entities[0]->signatures[] = array('name'=>'AMAZON.SuspendAction<object@Book>');
-$intents->categories[0]->entities[0]->slots = array();
 
 $intents->categories[0]->entities[1] = new stdclass();
 $intents->categories[0]->entities[1]->entity = 'BookSeries';
@@ -48,7 +47,7 @@ $intents->categories[0]->entities[3]->signatures[] = array('name'=>'AMAZON.Start
 $intents->categories[0]->entities[3]->signatures[] = array('name'=>'AMAZON.SuspendAction<object@CreativeWorkSection>');
 
 $intents->categories[0]->entities[4] = new stdclass();
-$intents->categories[0]->entities[4]->entity = '';
+$intents->categories[0]->entities[4]->entity = 'ReadingList';
 $intents->categories[0]->entities[4]->signatures = array();
 $intents->categories[0]->entities[4]->signatures[] = array('name'=>'AMAZON.AddAction<object@Book,targetCollection@ReadingList>');
 $intents->categories[0]->entities[4]->signatures[] = array('name'=>'AMAZON.AddAction<object@BookSeries,targetCollection@ReadingList>');
