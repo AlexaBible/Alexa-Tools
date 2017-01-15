@@ -1,0 +1,675 @@
+{
+    "categories": [
+        {
+            "category": "Books",
+            "entities": [
+                {
+                    "entity": "Book",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.AddAction<object@Book,targetCollection@ReadingList>"
+                        },
+                        {
+                            "name": "AMAZON.ChooseAction<object@Book,sourceCollection@ReadingList>"
+                        },
+                        {
+                            "name": "AMAZON.ChooseAction<object@Book>"
+                        },
+                        {
+                            "name": "AMAZON.DeleteAction<object@Book,sourceCollection@ReadingList>"
+                        },
+                        {
+                            "name": "AMAZON.PlaybackAction<object@Book>"
+                        },
+                        {
+                            "name": "AMAZON.RateAction<object@Book>"
+                        },
+                        {
+                            "name": "AMAZON.RestartAction<object@Book>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@Book>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@Book[datePublished]>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@Book[numberOfSections]>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@Book[position]>"
+                        },
+                        {
+                            "name": "AMAZON.StopAction<object@Book>"
+                        },
+                        {
+                            "name": "AMAZON.SuspendAction<object@Book>"
+                        }
+                    ],
+                    "slots": []
+                },
+                {
+                    "entity": "BookSeries",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.AddAction<object@BookSeries,targetCollection@ReadingList>"
+                        },
+                        {
+                            "name": "AMAZON.DeleteAction<object@BookSeries,sourceCollection@ReadingList>"
+                        }
+                    ]
+                },
+                {
+                    "entity": "CreativeWork",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.ChooseAction<object@CreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@CreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@CreativeWork[name]>"
+                        }
+                    ]
+                },
+                {
+                    "entity": "CreativeWorkSection",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.CloseAction<object@CreativeWorkSection>"
+                        },
+                        {
+                            "name": "AMAZON.PlaybackAction<object@CreativeWorkSection>"
+                        },
+                        {
+                            "name": "AMAZON.RestartAction<object@CreativeWorkSection>"
+                        },
+                        {
+                            "name": "AMAZON.ResumeAction<object@CreativeWorkSection>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@CreativeWorkSection>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@CreativeWorkSection[name]>"
+                        },
+                        {
+                            "name": "AMAZON.StartAction<object@CreativeWorkSection>"
+                        },
+                        {
+                            "name": "AMAZON.SuspendAction<object@CreativeWorkSection>"
+                        }
+                    ]
+                },
+                {
+                    "entity": "",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.AddAction<object@Book,targetCollection@ReadingList>"
+                        },
+                        {
+                            "name": "AMAZON.AddAction<object@BookSeries,targetCollection@ReadingList>"
+                        },
+                        {
+                            "name": "AMAZON.ChooseAction<object@Book,sourceCollection@ReadingList>"
+                        },
+                        {
+                            "name": "AMAZON.CreateAction<object@ReadingList>"
+                        },
+                        {
+                            "name": "AMAZON.DeleteAction<object@Book,sourceCollection@ReadingList>"
+                        },
+                        {
+                            "name": "AMAZON.DeleteAction<object@BookSeries,sourceCollection@ReadingList>"
+                        },
+                        {
+                            "name": "AMAZON.DeleteAction<object@ReadingList>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Calendar",
+            "entities": [
+                {
+                    "entity": "Calendar",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.ReadAction<object@Calendar>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@Calendar>"
+                        }
+                    ]
+                },
+                {
+                    "entity": "Event",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.AddAction<object@Event>"
+                        },
+                        {
+                            "name": "AMAZON.ChooseAction<object@Event>"
+                        },
+                        {
+                            "name": "AMAZON.DeleteAction<object@Event>"
+                        },
+                        {
+                            "name": "AMAZON.ReplaceAction<object@Event>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@Event>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@Event[eventStatus]>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@Event[location]>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@Event[startDate]>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Cinema Showtimes",
+            "entities": [
+                {
+                    "entity": "ScreeningEvent",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.ChooseAction<object@ScreeningEvent[location]>"
+                        },
+                        {
+                            "name": "AMAZON.ChooseAction<object@ScreeningEvent[workPresented]>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@ScreeningEvent>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@ScreeningEvent[location]>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "General",
+            "entities": [
+                {
+                    "entity": "CreativeWor",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.ChooseAction<object@CreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@CreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@CreativeWork[name]>"
+                        }
+                    ]
+                },
+                {
+                    "entity": "CreativeWorkSection",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.CloseAction<object@CreativeWorkSection>"
+                        },
+                        {
+                            "name": "AMAZON.PlaybackAction<object@CreativeWorkSection>"
+                        },
+                        {
+                            "name": "AMAZON.RestartAction<object@CreativeWorkSection>"
+                        },
+                        {
+                            "name": "AMAZON.ResumeAction<object@CreativeWorkSection>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@CreativeWorkSection>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@CreativeWorkSection[name]>"
+                        },
+                        {
+                            "name": "AMAZON.StartAction<object@CreativeWorkSection>"
+                        },
+                        {
+                            "name": "AMAZON.SuspendAction<object@CreativeWorkSection>"
+                        }
+                    ]
+                },
+                {
+                    "entity": "Thing",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.CloseAction<object@Thing>"
+                        },
+                        {
+                            "name": "AMAZON.DeactivateAction<object@Thing>"
+                        },
+                        {
+                            "name": "AMAZON.DeleteAction<object@Thing>"
+                        },
+                        {
+                            "name": "AMAZON.IgnoreAction<object@Thing>"
+                        },
+                        {
+                            "name": "AMAZON.MuteAction<object@Thing>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Local Search",
+            "entities": [
+                {
+                    "entity": "LocalBusiness",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.SearchAction<object@LocalBusiness>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@LocalBusiness[openHours.closes]>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@LocalBusiness[openHours]>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@LocalBusiness[telephone]>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Music",
+            "entities": [
+                {
+                    "entity": "Catalog",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.DeleteAction<object@MusicPlaylist,sourceCollection@Catalog>"
+                        }
+                    ]
+                },
+                {
+                    "entity": "MusicCreativeWork",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.AddAction<object@MusicCreativeWork,targetCollection@MusicPlaylist>"
+                        },
+                        {
+                            "name": "AMAZON.ChooseAction<object@MusicCreativeWork,sourceCollection@MusicPlaylist>"
+                        },
+                        {
+                            "name": "AMAZON.ChooseAction<object@MusicCreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.CreateAction<object@MusicPlaylist,content@MusicCreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.DeleteAction<object@MusicCreativeWork,sourceCollection@MusicPlaylist>"
+                        },
+                        {
+                            "name": "AMAZON.DeleteAction<object@MusicCreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.PlaybackAction<object@MusicCreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.RepeatAction<object@MusicCreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.ResumeAction<object@MusicCreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@MusicCreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@MusicCreativeWork[byArtist]>"
+                        },
+                        {
+                            "name": "AMAZON.StartAction<object@MusicCreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.StopAction<object@MusicCreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.SuspendAction<object@MusicCreativeWork>"
+                        }
+                    ]
+                },
+                {
+                    "entity": "MusicGroup",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.SearchAction<object@MusicGroup>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@MusicGroup[musicGroupMember]>"
+                        }
+                    ]
+                },
+                {
+                    "entity": "MusicPlaylist",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.AddAction<object@MusicCreativeWork,targetCollection@MusicPlaylist>"
+                        },
+                        {
+                            "name": "AMAZON.ChooseAction<object@MusicCreativeWork,sourceCollection@MusicPlaylist>"
+                        },
+                        {
+                            "name": "AMAZON.ChooseAction<object@MusicPlaylist>"
+                        },
+                        {
+                            "name": "AMAZON.CreateAction<object@MusicPlaylist,content@MusicCreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.CreateAction<object@MusicPlaylist>"
+                        },
+                        {
+                            "name": "AMAZON.DeleteAction<object@MusicCreativeWork,sourceCollection@MusicPlaylist>"
+                        },
+                        {
+                            "name": "AMAZON.DeleteAction<object@MusicPlaylist,sourceCollection@Catalog>"
+                        },
+                        {
+                            "name": "AMAZON.DeleteAction<object@MusicPlaylist>"
+                        },
+                        {
+                            "name": "AMAZON.PlaybackAction<object@MusicPlaylist>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@MusicPlaylist[tracks]>"
+                        }
+                    ]
+                },
+                {
+                    "entity": "MusicRecording",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.SearchAction<object@MusicRecording[byArtist.musicGroupMember]>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@MusicRecording[byArtist]>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@MusicRecording[duration]>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@MusicRecording[inAlbum]>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@MusicRecording[producer]>"
+                        }
+                    ]
+                },
+                {
+                    "entity": "Musician",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.LikeAction<object@Musician>"
+                        }
+                    ]
+                },
+                {
+                    "entity": "PlaybackMode",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.ActivateAction<object@PlaybackMode>"
+                        },
+                        {
+                            "name": "AMAZON.DeactivateAction<object@PlaybackMode>"
+                        }
+                    ]
+                },
+                {
+                    "entity": "Singer",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.SearchAction<object@Singer>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Video",
+            "entities": [
+                {
+                    "entity": "Actor",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.SearchAction<object@Actor>"
+                        }
+                    ]
+                },
+                {
+                    "entity": "CreativeWork",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.ChooseAction<object@CreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@CreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@CreativeWork[name]>"
+                        }
+                    ]
+                },
+                {
+                    "entity": "Episode",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.ExitAction<object@Episode>"
+                        },
+                        {
+                            "name": "AMAZON.PlaybackAction<object@Episode>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@Episode>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@Episode[description]>"
+                        },
+                        {
+                            "name": "AMAZON.SuspendAction<object@Episode>"
+                        },
+                        {
+                            "name": "AMAZON.WatchAction<object@Episode>"
+                        }
+                    ]
+                },
+                {
+                    "entity": "TVSeason",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.PlaybackAction<object@TVSeason>"
+                        }
+                    ]
+                },
+                {
+                    "entity": "TVSeries",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.PlaybackAction<object@TVSeries>"
+                        },
+                        {
+                            "name": "AMAZON.ResumeAction<object@TVSeries>"
+                        }
+                    ]
+                },
+                {
+                    "entity": "VideoCreativeWork",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.ChooseAction<object@VideoCreativeWork,sourceCollection@VideoPlaylist>"
+                        },
+                        {
+                            "name": "AMAZON.ChooseAction<object@VideoCreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.CloseAction<object@VideoCreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.DislikeAction<object@VideoCreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.LikeAction<object@VideoCreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.PlaybackAction<object@VideoCreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.RateAction<object@VideoCreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.RestartAction<object@VideoCreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.ResumeAction<object@VideoCreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@VideoCreativeWork,sourceCollection@VideoPlaylist>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@VideoCreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@VideoCreativeWork[actor]>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@VideoCreativeWork[audience]>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@VideoCreativeWork[contentRating]>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@VideoCreativeWork[dateReleased]>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@VideoCreativeWork[description]>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@VideoCreativeWork[director]>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@VideoCreativeWork[genre]>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@VideoCreativeWork[musicBy]>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@VideoCreativeWork[name]>"
+                        },
+                        {
+                            "name": "AMAZON.StopAction<object@VideoCreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.SuspendAction<object@VideoCreativeWork>"
+                        },
+                        {
+                            "name": "AMAZON.WatchAction<object@VideoCreativeWork>"
+                        }
+                    ]
+                },
+                {
+                    "entity": "VideoPlaylist",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.ChooseAction<object@VideoCreativeWork,sourceCollection@VideoPlaylist>"
+                        },
+                        {
+                            "name": "AMAZON.ExitAction<object@VideoPlaylist>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@VideoCreativeWork,sourceCollection@VideoPlaylist>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Weather",
+            "entities": [
+                {
+                    "entity": "WeatherForecast",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.SearchAction<object@WeatherForecast>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@WeatherForecast[temperature]>"
+                        },
+                        {
+                            "name": "AMAZON.SearchAction<object@WeatherForecast[weatherCondition]>"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Standard",
+            "entities": [
+                {
+                    "entity": "Standard",
+                    "signatures": [
+                        {
+                            "name": "AMAZON.CancelIntent"
+                        },
+                        {
+                            "name": "AMAZON.HelpIntent"
+                        },
+                        {
+                            "name": "AMAZON.LoopOffIntent"
+                        },
+                        {
+                            "name": "AMAZON.LoopOnIntent"
+                        },
+                        {
+                            "name": "AMAZON.NextIntent"
+                        },
+                        {
+                            "name": "AMAZON.NoIntent"
+                        },
+                        {
+                            "name": "AMAZON.PauseIntent"
+                        },
+                        {
+                            "name": "AMAZON.PreviousIntent"
+                        },
+                        {
+                            "name": "AMAZON.RepeatIntent"
+                        },
+                        {
+                            "name": "AMAZON.ResumeIntent"
+                        },
+                        {
+                            "name": "AMAZON.ShuffleOffIntent"
+                        },
+                        {
+                            "name": "AMAZON.ShuffleOnIntent"
+                        },
+                        {
+                            "name": "AMAZON.StartOverIntent"
+                        },
+                        {
+                            "name": "AMAZON.StopIntent"
+                        },
+                        {
+                            "name": "AMAZON.YesIntent"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
